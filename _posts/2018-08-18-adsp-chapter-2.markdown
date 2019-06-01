@@ -3,6 +3,7 @@ layout: post
 title:  "adsp 2과목 데이터 분석 기획 요약"
 date:   2018-08-18 22:21:00 +0900
 categories: adsp
+tags: [adsp, 자격증]
 comments: true
 ---
 # 2 과목. 데이터 분석 기획  
