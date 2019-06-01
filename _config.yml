@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: CHIMIMODE in a room
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: ....
 
 # --- Navigation bar options --- #
 
@@ -104,7 +104,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-123174913-1"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
