@@ -3,6 +3,7 @@ layout: post
 title:  "윈도우 환경에서 github로 jekyll 블로그 만들기"
 date:   2018-08-03 00:56:12 +0900
 categories: jekyll
+comments: true
 ---
 윈도우 환경에서 깃허브+지킬로 정적 블로그 생성을 했다. 
 

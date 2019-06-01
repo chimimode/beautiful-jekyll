@@ -3,6 +3,7 @@ layout: post
 title:  "adsp 1과목 데이터의 이해 요약"
 date:   2018-08-06 19:30:12 +0900
 categories: adsp
+comments: true
 ---
 # 1 과목. 데이터의 이해
 `데이터`  
