@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "javascript의 strict mode란"
+title:  "[study] javascript의 strict mode란"
 date:   2019-06-19 10:01:00 +0900
 categories: javascript
 tags: [javascript, strict, 자바스크립트, 엄격모드]
