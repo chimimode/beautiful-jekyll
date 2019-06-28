@@ -2,7 +2,7 @@
 layout: post
 title: "원시타입(primitive), 참조타입(reference)"
 subtitle: "javascript의 자료형"
-date:   2019-06-29 10:01:00 +0900
+date:   2019-06-29 09:01:00 +0900
 categories: javascript
 tags: [javascript, data structure]
 comments: true
