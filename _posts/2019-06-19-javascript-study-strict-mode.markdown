@@ -18,14 +18,14 @@ comments: true
 ### ◾️**strict mode 적용방법**
 
 - 전체 스크립트에 적용
-```
+```javascript
     'use strict';
     
     let mode = 'strict mode';
     ..
 ```
 - 함수에 적용
-```
+```javascript
     function strict() {
     	'use strict';
     
@@ -38,7 +38,7 @@ comments: true
     // strict선언의 위치에 따라 함수안에서도 에러발생 여부가 달라질수 있음 (let 선언자 등)
 ```
 - 모듈에 적용
-```
+```javascript
     function strict() {
         // 모듈이기때문에 기본적으로 엄격합니다
     }
@@ -57,7 +57,7 @@ strict mode와 non-strice mode를 혼용하면 오류가 발생할 수 있음
 ### ◾️strict mode가 발생시키는 에러
 
 1. var, let, const로 할당하지않은 전역변수
-```
+```javascript
     'use strict';
     
     test = 10;
@@ -65,14 +65,14 @@ strict mode와 non-strice mode를 혼용하면 오류가 발생할 수 있음
     //ReferenceError: x is not defined
 ```
 2. 예약어 변수할당
-```
+```javascript
     let undefined = 0;
     let Infinity = 0;
     
     //Uncaught SyntaxError: Identifier 'Infinity' has already been declared
 ```
 3. 쓸 수 없는 프로퍼티에 할당
-```
+```javascript
     var obj1 = {};
     Object.defineProperty(obj1, "x", { value: 42, writable: false });
     obj1.x = 9; // TypeError 발생
@@ -89,7 +89,7 @@ strict mode와 non-strice mode를 혼용하면 오류가 발생할 수 있음
     // preventExtensions(새로운 속성추가를 막는 메소드)
 ```
 4. delete 명령어
-```
+```javascript
     'use strict';
     
     let test = 1;
@@ -98,7 +98,7 @@ strict mode와 non-strice mode를 혼용하면 오류가 발생할 수 있음
     // Uncaught SyntaxError: Delete of an unqualified identifier in strict mode.
 ```
 5. 함수의 매개변수명이 중복됨
-```
+```javascript
     'use strict';
     
     function sum(a, a, b) {
@@ -110,7 +110,7 @@ strict mode와 non-strice mode를 혼용하면 오류가 발생할 수 있음
     //Uncaught SyntaxError: Duplicate parameter name not allowed in this context
 ```
 6. with문 사용
-```
+```javascript
     'use strict';
     
     let test = 10;
@@ -120,7 +120,7 @@ strict mode와 non-strice mode를 혼용하면 오류가 발생할 수 있음
     }
 ```
 7. 일반함수의 this사용
-```
+```javascript
     (function () {
       'use strict';
     

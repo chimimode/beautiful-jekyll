@@ -27,17 +27,17 @@ comments: true
 나는 윈도우용 [GitHub Desktop](https://desktop.github.com/)을 통해 내려받았다.  
 3. [지킬문서](https://jekyllrb-ko.github.io/)에 나와있는 안내대로 윈도우용 루비 인스톨러 [RubyInstaller for Windows](https://rubyinstaller.org/) 를 설치한다.
 4. **3**을 설치하면 실행되는 CommandPrompt창에 아래의 명령어를 친다.
-```
+```ruby
 gem install bundler jekyll
 ```
 5. CommandPrompt창에서 **2**에서 내려받았던 경로로 이동한다. 내 경우 D드라이브 아래의 develop폴더로 접근해야했다. 그래서 아래처럼 이동을했다.
-```
+```ruby
 cd /d D:\
 cd develop
 cd xxxx.github.io
 ```
 6. 위 명령어로 github에서 내려받은 폴더에 도착했다면, 이곳에서 jekyll을 실행하여 블로그를 생성한다. (마지막 마침표도 명령어임.)
-```
+```ruby
 jekyll new .
 ```
 `xxxx.github.io` 폴더내에 자동적으로 이것저것 파일이 생성된것이 보일것이다.  
