@@ -3,11 +3,12 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
