@@ -13,8 +13,7 @@ subtitle: 방구석에서 잘 노는 치미모드입니다.
 ![aws](https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Non-Service_Specific_copy__AWS_Cloud-64.png "aws")
 
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### interested
+![steam](https://cdn2.iconfinder.com/data/icons/gaming-platforms-logo-shapes/250/steam_logo-64.png "steam")
+![youtube](https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Youtube-64.png "youtube")
+![instagram](https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-64.png "instagram")
