@@ -36,7 +36,8 @@ npm install [package] --save
 // [package]를 설치 하면서 package.json파일에 있는 dependencies 객체에 지금 설치한 패키지 정보를 추가한다.
 
 npm install [package] --save -dev
-// --save옵션과 같이 package.json파일에 의존성 내용을 추가하지만 dependencies가 아닌 devDepenencies 객체에 추가한다.
+// --save옵션과 같이 package.json파일에 의존성 내용을 추가하지만
+// dependencies가 아닌 devDepenencies 객체에 추가한다.
 ```
 
 --save와 --save-dev의 차이는 의존성을 기본으로 추가할지, 개발용으로 추가할지의 차이이다.  
