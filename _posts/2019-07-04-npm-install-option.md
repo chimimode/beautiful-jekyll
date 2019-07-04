@@ -12,6 +12,8 @@ comments: true
 npm install [package]
 ```
 javascript로 개발을 하면서 npm관련하여 사용하는 명령어 중에서도 가장 많이 활용하는 명령어가 <mark>npm install</mark>이 아닐까 생각한다. 습관처럼 자주쓰는 몇가지 옵션만 사용하지만 다른 것 들은 어떤것이 있는지 찾아 보았다.🧐  
+
+
 npm install --save와 npm install --save-dev의 차이점과 함께 다른 옵션들도 확인 해 보았다.
 
 ---
