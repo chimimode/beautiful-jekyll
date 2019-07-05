@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "jekeyll for Windows 멀고도 험한 serve의 길.."
+title: "jekyll for Windows 멀고도 험한 serve의 길.."
 subtitle: "로컬에서 jekyll을 띄울때 마주치는 수 많은 장벽"
 date:   2019-06-30 09:01:00 +0900
 categories: jekyll
