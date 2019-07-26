@@ -129,16 +129,20 @@ i ｢wdm｣: Failed to compile.
 ```  
 프로젝트 설정은 했지만 실제로 실행시킬 .js파일이 없기에 에러를 출력한다.
 아래처럼 몇가지 파일을 더 추가 해 준다.  
+
 ---
+
 ### 5. js파일과 html 추가하기
 `webpack.config.js` 파일의 <code>entry: './src/index.js'</code>에 해당하는 경로로 파일을 생성 해 준다.
 - src 폴더 생성
-- 생성한 src 폴더 안에 index.js 파일 생성
+- 생성한 src 폴더 안에 index.js 파일 생성  
+
 index.js 파일에는 아래의 샘플을 작성한다.
 ```javascript
 console.log('setting!');
 ```  
-브라우저에 출력할 html파일을 `webpack.config.js`의 위치와 같은 곳에 생성한다
+
+브라우저에 출력할 html파일을 `webpack.config.js`의 위치와 같은 곳에 생성한다.  
 ```HTML
 <!doctype html>
 <html lang="ko">
@@ -157,7 +161,6 @@ console.log('setting!');
 ---
 이제 `npm run devserver` 명령어를 실행하고 브라우저 창에서 화면을 확인하며 개발을 진행 하면 된다.  
 `npm run build` 명령어를 입력하면 자동으로 `/dist/bundle.js` 가 생성되는것을 확인 할 수 있다.
-
 
 ---
 Link  
