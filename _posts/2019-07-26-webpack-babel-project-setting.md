@@ -77,7 +77,7 @@ npm install --save-dev webpack webpack-dev-server
 },
 ...
 ```  
-scripts 항목을 수정 하고 나면 `npm run dev`, `npm run build`, `npm run devserver`명령어를 터미널에 입력 해 사용 할 수 있다. 
+scripts 항목을 수정 하고 나면 `npm run dev`, `npm run build`, `npm run devserver`명령어를 터미널에 입력 해 사용 할 수 있다.  
 명령어를 사용하기 전에 아직 조금 더 설정 할 순서가 남았으므로 아래에서 이 명령어들에 대해 확인하고 다음 단계로 넘어간다.
 ---
 ### 4. webpack.config.js 만들기
