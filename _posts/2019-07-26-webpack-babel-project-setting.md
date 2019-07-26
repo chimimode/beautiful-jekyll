@@ -76,9 +76,7 @@ npm install --save-dev webpack webpack-dev-server
   "devserver": "webpack-dev-server --open --progress"
 },
 ...
-```  
-scripts 항목을 수정 하고 나면 `npm run dev`, `npm run build`, `npm run devserver`명령어를 터미널에 입력 해 사용 할 수 있다.  
-명령어를 사용하기 전에 아직 조금 더 설정 할 순서가 남았으므로 아래에서 이 명령어들에 대해 확인하고 다음 단계로 넘어간다.
+```
 ---
 ### 4. webpack.config.js 만들기
 `package.json`파일이 있는 위치와 같은 곳에 `webpack.config.js`파일을 새로 생성 해 줍니다. 그리고 아래와같이 작성 합니다.
@@ -127,9 +125,7 @@ ERROR in multi (webpack)-dev-server/client?http://localhost ./index.js
 Module not found: Error: Can't resolve './src/index.js' in '개발환경 디렉토리'
  @ multi (webpack)-dev-server/client?http://localhost ./index.js main[1]
 i ｢wdm｣: Failed to compile.
-```  
-프로젝트 설정은 했지만 실제로 실행시킬 .js파일이 없기에 에러를 출력한다.
-아래처럼 몇가지 파일을 더 추가 해 준다.
+```
 ---
 ### 5. js파일과 html 추가하기
 `webpack.config.js` 파일의 <code>entry: './src/index.js'</code>에 해당하는 경로로 파일을 생성 해 준다.
