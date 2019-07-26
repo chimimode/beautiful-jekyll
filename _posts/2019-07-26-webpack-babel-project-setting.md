@@ -2,6 +2,9 @@
 layout: post
 title: "webpack과 babel로 프로젝트 설정하기"
 subtitle: "javascript 프론트엔드 개발환경 구성하는 법"
+categories: javascript
+tags: [webpack, babel]
+comments: true
 ---
 프론트엔드 개발을 위한 프로젝트를 설정함에 있어 webpack과 babel을 이용 해 초기 구성하는 순서를 기록으로 남겨놓는다.
 <code>vscode</code>와 <code>npm</code>을 사용하여 진행한 설정 순서이다.
@@ -36,7 +39,7 @@ npm install --save-dev babel-core babel-loader babel-preset-env
 npm install --save-dev webpack webpack-dev-server
 ```
 설치를 마치면 1.에서 생성했던 `package.json`파일에 devDependencies가 추가 되었을것이다.
-```
+```javascript
 // 추가된 devDependencies
 ...
 ...
@@ -125,7 +128,7 @@ Module not found: Error: Can't resolve './src/index.js' in '개발환경 디렉�
 i ｢wdm｣: Failed to compile.
 ```  
 프로젝트 설정은 했지만 실제로 실행시킬 .js파일이 없기에 에러를 출력한다.
-아래처럼 몇가지 파일을 더 추가 해 준다.
+아래처럼 몇가지 파일을 더 추가 해 준다.  
 ---
 ### 5. js파일과 html 추가하기
 `webpack.config.js` 파일의 <code>entry: './src/index.js'</code>에 해당하는 경로로 파일을 생성 해 준다.
@@ -136,7 +139,7 @@ index.js 파일에는 아래의 샘플을 작성한다.
 console.log('setting!');
 ```  
 브라우저에 출력할 html파일을 `webpack.config.js`의 위치와 같은 곳에 생성한다
-```html
+```HTML
 <!doctype html>
 <html lang="ko">
     <head>
