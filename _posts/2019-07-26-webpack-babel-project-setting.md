@@ -133,7 +133,8 @@ i ｢wdm｣: Failed to compile.
 
 ---
 
-### 5. js파일과 html 추가하기
+### 5. /src/index.js파일과 index.html 추가하기
+#### index.js 파일 만들기
 `webpack.config.js` 파일의 <code>entry: './src/index.js'</code>에 해당하는 경로로 파일을 생성 해 준다.
 - src 폴더 생성
 - 생성한 src 폴더 안에 index.js 파일 생성  
@@ -142,7 +143,7 @@ index.js 파일에는 아래의 샘플을 작성한다.
 ```javascript
 console.log('setting!');
 ```  
-
+#### index.html 파일 만들기
 브라우저에 출력할 html파일을 `webpack.config.js`의 위치와 같은 곳에 생성한다.  
 ```HTML
 <!doctype html>
